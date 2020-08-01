@@ -1,0 +1,44 @@
+{
+  "name": "onsen-auth",
+  "version": "0.1.0",
+  "description": "Onsen Auth Libarary",
+  "keywords": [
+    "onsen"
+  ],
+  "homepage": "https://github.com/p-chan/onsen-auth",
+  "bugs": {
+    "url": "https://github.com/p-chan/onsen-auth/issues"
+  },
+  "license": "MIT",
+  "author": "P-Chan",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-chan/onsen-auth.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "format": "prettier --write **/*.{js,ts}"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "puppeteer": "^5.2.1",
+    "query-string": "^6.13.1"
+  },
+  "devDependencies": {
+    "@p-chan/prettier-config": "^2.0.0",
+    "@p-chan/tsconfig": "^1.1.0",
+    "@types/node-fetch": "^2.5.7",
+    "@types/puppeteer": "^3.0.1",
+    "prettier": "2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

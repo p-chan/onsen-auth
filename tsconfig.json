@@ -1,0 +1,11 @@
+{
+  "extends": "@p-chan/tsconfig",
+  "compilerOptions": {
+    "target": "ES2018",
+    "declaration": true,
+    "outDir": "./dist",
+    "baseUrl": "./"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
